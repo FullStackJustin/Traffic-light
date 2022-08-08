@@ -6,7 +6,9 @@ import ReactDOM from "react-dom";
 import "../styles/index.css";
 
 //import your own components
-import Home from "./component/home.jsx";
+import TrafficLight from "./component/home.jsx";
+import LightPole from "./component/trafficLightPole.jsx";
 
 //render your react application
-ReactDOM.render(<Home />, document.querySelector("#app"));
+ReactDOM.render(<LightPole />, document.querySelector("#pole"));
+ReactDOM.render(<TrafficLight />, document.querySelector("#app"));

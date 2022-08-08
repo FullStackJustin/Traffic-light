@@ -1,13 +1,21 @@
+/* body{
+    background-image: url("https://thumbs.dreamstime.com/b/vector-illustration-crossroad-road-signs-walking-men-drivers-view-illustration-crossroad-walking-men-84078782.jpg");
+} */
 
-.pole {
-    height: 10px;
-    width: 3px;
+.lightPole {
+    display: flex;
+    justify-content: center;
     background-color: black;
+    width: 27px;
+    height: 25px;
+    margin: auto;
 }
+
 
 .buttonNpole {
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 .traffic-light {
